@@ -6,7 +6,7 @@
 * Specifically, compare the regimen Capomulin against other treatments.
 * The following results have been calculated:
 
-* A summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
+* A summary statistics table consisting of the mean, median, variance, standard deviation, and SEM (standard error of the mean) of the tumor volume for each drug regimen.
     
 ![SummaryTable](https://github.com/michaellegg16/matplotlib-challenge/blob/master/Screenshots/SummaryStats.png)
 
@@ -41,3 +41,13 @@
 ![LinearReg](https://github.com/michaellegg16/matplotlib-challenge/blob/master/Screenshots/LinearRegression.png)
 
 
+### Instructions
+
+1. To run this code, open the .ipynb file in juyter notebook (make sure that you have the necessary modules installed).
+1. Ensure that the data is downloaded into the proper path to be imported.
+1. Run all of the kernals in jupyter notebook to see the results be calculated. 
+
+
+### Conclusion
+
+Based on my analysis it can be determined that the drug regimens Capomulin and Ramicane appear to have the smallest average tumor size at the final time point. Additionally, tumor volume seems to effectively and consistenly go down over time when treated with teh fictional drug Capomulin. While this all sounds promising, I believe the most influential factor when determining tumor size is simply mouse weight. A 0.84 correlation coefficient was calculated from the linear regression of average mouse weight on Capomulin vs average tumor volume demostrating how strongly related mouse weight and tumor volume are. Tumor volume did become reduced to small volumes over time on the Caplmulin regimen, but it is impossible to make any true conclusions from this study since it is all fictional and for demonstrative purposes only. 
