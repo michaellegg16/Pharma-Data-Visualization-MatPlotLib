@@ -29,7 +29,7 @@
 
 * Generate a line plot of time point versus tumor volume for a single mouse treated with Capomulin.
 
-
+![LinePlot](https://github.com/michaellegg16/matplotlib-challenge/blob/master/Screenshots/LineGraph.png)
 
 * Generate a scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen.
 
